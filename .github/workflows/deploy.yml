@@ -22,4 +22,4 @@ jobs:
           script: |
             cd /var/www
             sudo rm -rf html
-            git clone https://github.com/syedukkashah/hello-cicd.git html
+            sudo git clone https://github.com/syedukkashah/hello-cicd.git html
