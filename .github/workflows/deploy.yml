@@ -21,6 +21,5 @@ jobs:
           key: ${{ secrets.EC2_KEY }}
           script: |
             cd /var/www
-            sudo chown -R $USER:$USER /var/www
             sudo rm -rf html
-            sudo git clone https://github.com/syedukkashah/hello-cicd.git html
+            git clone https://github.com/syedukkashah/hello-cicd.git html
